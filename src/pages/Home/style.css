@@ -1,0 +1,58 @@
+.HomeWrapper { 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../../assets/Home/HomeImage.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.LoginBox {
+  position: absolute;
+  width: 386px;
+  height: auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 62px;
+  top: 25%;
+  left: 15%;
+}
+
+.LoginH1 {
+  position: absolute;
+  top: 47px;
+  left: 17%;
+}
+
+.HomeWrapper .LoginBox input {
+  width: 280px;
+  height: 41px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: .1px solid #999999;
+  border-bottom: none;
+}
+
+.HomeWrapper .LoginBox button {
+  position: relative;
+  width: 163px;
+  height: 34px;
+  margin-top: 20px;
+  margin-left: 22%;
+  background: #0D3C84;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.HomeWrapper .LoginBox a {
+  float: left;
+  margin-top: 30px;
+  position: relative;
+  color: #FFFFFF;
+  text-decoration: none;
+}
