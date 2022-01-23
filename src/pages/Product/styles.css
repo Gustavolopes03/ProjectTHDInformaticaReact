@@ -1,0 +1,20 @@
+.LogoProfile {
+  position: relative;
+  height: 190px;
+  width: 300px;
+  top: -3%;
+  left: -3%;
+  border-bottom-right-radius: 100px;
+  object-fit: cover;
+}
+
+.ClientsIcon, .ProdctsIcon, SellsIcon {
+  margin-left: 10%;
+  height: 50px;
+  width: 50px;
+}
+
+h2 {
+  margin: 11px;
+  color: #FDFFFC;
+}
